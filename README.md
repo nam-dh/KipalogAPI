@@ -5,7 +5,7 @@ Original documentation see at: [https://github.com/Kipalog/Kipalog-API-Doc](http
 ### Usage
 #### IMPORTANT: Configure your API access token
 ```
-KipalogAPI().shared.accessToken = 'token-obtained-from-kipalog'
+KipalogAPI.shared.accessToken = 'token-obtained-from-kipalog'
 ```
 
 #### Get post list (hot, newest, by tag)
@@ -23,9 +23,16 @@ public enum PostListType {
 }
 ```
 
-#### Push a new post
+#### Publish a new post
 ```
-let newPost = KLLocalPost(title: "Hello World", content: "markdown text", tags: ["TIL","Markdown"])
+let newPost = KLLocalPost(title: "Hello World", action: .publish, content: "markdown text", tags: ["TIL","Markdown"])
+KipalogAPI.shared.post(newPost) { (error) in
+}
+```
+
+#### Draft a new post
+```
+let newPost = KLLocalPost(title: "Hello World", action: .draft, content: "markdown text", tags: ["TIL","Markdown"])
 KipalogAPI.shared.post(newPost) { (error) in
 }
 ```
