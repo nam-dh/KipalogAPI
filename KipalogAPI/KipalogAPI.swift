@@ -72,11 +72,16 @@ public class KipalogAPI {
         }
     }
 
-    public func post(_ post: KLLocalPost, completion: @escaping (KLError?) -> Void) {
+    public enum PostAction: String {
+        case publish = "published"
+        case draft = "draft"
+    }
+
+    public func post(_ post: KLLocalPost, action: PostAction, completion: @escaping (KLError?) -> Void) {
         let data: JSONDictionary = [
             "title": post.title,
             "content": post.content,
-            "status": "published",
+            "status": action.rawValue,
             "tag": post.tags.joined(separator: ",")
         ]
         environment.apiRequester.post(.createPost, data: data) { (result) in
