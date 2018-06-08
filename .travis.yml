@@ -1,7 +1,8 @@
 language: swift
 os: osx
 osx_image: xcode9.3
-
+xcode_project: KipalogAPI.xcodeproj
+xcode_sdk: iphonesimulator11.4
 notifications:
   email: false
 
