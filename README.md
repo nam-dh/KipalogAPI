@@ -1,4 +1,4 @@
-# kipalog-api-swift
+# Kipalog API
 Swift wrapper for Kipalog API (http://kipalog.com)
 
 Original documentation see at: [https://github.com/Kipalog/Kipalog-API-Doc](https://github.com/Kipalog/Kipalog-API-Doc)
