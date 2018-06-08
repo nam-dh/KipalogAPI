@@ -5,6 +5,18 @@ osx_image: xcode9.3
 notifications:
   email: false
 
+env:
+  global:
+    - FRAMEWORK_NAME=KipalogAPI
+
 script:
     - xcodebuild -project KipalogAPI.xcodeproj -scheme KipalogAPI -configuration Test -sdk macosx CONFIGURATION_BUILD_DIR=. clean build
+
+before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+
+before_deploy:
+  - carthage build --no-skip-current
+  - carthage archive $FRAMEWORK_NAME
 
