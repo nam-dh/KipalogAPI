@@ -2,6 +2,8 @@
 Swift wrapper for Kipalog API (http://kipalog.com)
 
 Original documentation see at: [https://github.com/Kipalog/Kipalog-API-Doc](https://github.com/Kipalog/Kipalog-API-Doc)
+
+[![Build Status](https://travis-ci.com/nam-dh/kipalog-api-swift.svg?branch=master)](https://travis-ci.com/nam-dh/kipalog-api-swift)  
 ### Usage
 #### IMPORTANT: Configure your API access token
 ```
