@@ -1,8 +1,10 @@
 language: swift
 os: osx
 osx_image: xcode9.3
+
 notifications:
   email: false
 
 script:
-    - xcodebuild clean build -sdk iphonesimulator -workspace KipalogAPI.xcworkspace -scheme KipalogAPITests CODE_SIGNING_REQUIRED=NO
+    - xcodebuild -project KipalogAPI.xcodeproj -scheme KipalogAPI -configuration Test -sdk macosx CONFIGURATION_BUILD_DIR=. clean build
+

@@ -7,6 +7,7 @@
 //
 
 @testable import KipalogAPI
+import Foundation
 
 final class KLTestRequester: KLAPIRequesterProtocol {
     typealias PostHandler = ((KLAPI.Tag, ((KLResult<JSONDictionary, KLError>) -> Void)?) -> URLSessionDataTask?)

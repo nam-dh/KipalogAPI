@@ -7,6 +7,7 @@
 //
 
 @testable import KipalogAPI
+import Foundation
 
 final class KLTestUtility {
     static func loadDataFromFile(_ fileName: String) -> Data? {

@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5165E3320C8D45A00474E53 /* KipalogAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F5165E3120C8D45A00474E53 /* KipalogAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5165E3A20C8D7FE00474E53 /* KLAPIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5165E3920C8D7FE00474E53 /* KLAPIRequester.swift */; };
-		F5165E3C20C8DB1000474E53 /* KLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5165E3B20C8DB1000474E53 /* KLResult.swift */; };
-		F5165E3E20C8DB6800474E53 /* KLError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5165E3D20C8DB6800474E53 /* KLError.swift */; };
 		F5165E4620C8DC2F00474E53 /* KipalogAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5165E4520C8DC2F00474E53 /* KipalogAPITests.swift */; };
 		F5165E4820C8DC2F00474E53 /* KipalogAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5165E2E20C8D45A00474E53 /* KipalogAPI.framework */; };
-		F5165E5120C8E87B00474E53 /* KLModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5165E5020C8E87B00474E53 /* KLModels.swift */; };
-		F5165E5320C8E8FB00474E53 /* KipalogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5165E5220C8E8FB00474E53 /* KipalogAPI.swift */; };
 		F5165E5620C8FE2100474E53 /* HotPostListSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = F5165E5520C8FE2100474E53 /* HotPostListSuccess.json */; };
 		F5165E5820C8FE7200474E53 /* NewestPostListSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = F5165E5720C8FE7200474E53 /* NewestPostListSuccess.json */; };
 		F5165E5A20C8FEA400474E53 /* PostListByTagSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = F5165E5920C8FEA400474E53 /* PostListByTagSuccess.json */; };
 		F5165E5C20C8FF3800474E53 /* KLTestRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5165E5B20C8FF3800474E53 /* KLTestRequester.swift */; };
+		F5502CF220CA35B00009C65F /* KLAPIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5502CED20CA35B00009C65F /* KLAPIRequester.swift */; };
+		F5502CF320CA35B00009C65F /* KLError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5502CEE20CA35B00009C65F /* KLError.swift */; };
+		F5502CF420CA35B00009C65F /* KipalogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5502CEF20CA35B00009C65F /* KipalogAPI.swift */; };
+		F5502CF520CA35B00009C65F /* KLModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5502CF020CA35B00009C65F /* KLModels.swift */; };
+		F5502CF620CA35B00009C65F /* KLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5502CF120CA35B00009C65F /* KLResult.swift */; };
 		F56A5E4720C90BE50011F766 /* KLTestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56A5E4620C90BE50011F766 /* KLTestUtility.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,20 +33,18 @@
 
 /* Begin PBXFileReference section */
 		F5165E2E20C8D45A00474E53 /* KipalogAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KipalogAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5165E3120C8D45A00474E53 /* KipalogAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KipalogAPI.h; sourceTree = "<group>"; };
-		F5165E3220C8D45A00474E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5165E3920C8D7FE00474E53 /* KLAPIRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLAPIRequester.swift; sourceTree = "<group>"; };
-		F5165E3B20C8DB1000474E53 /* KLResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLResult.swift; sourceTree = "<group>"; };
-		F5165E3D20C8DB6800474E53 /* KLError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLError.swift; sourceTree = "<group>"; };
 		F5165E4320C8DC2F00474E53 /* KipalogAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KipalogAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5165E4520C8DC2F00474E53 /* KipalogAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipalogAPITests.swift; sourceTree = "<group>"; };
 		F5165E4720C8DC2F00474E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5165E5020C8E87B00474E53 /* KLModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLModels.swift; sourceTree = "<group>"; };
-		F5165E5220C8E8FB00474E53 /* KipalogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipalogAPI.swift; sourceTree = "<group>"; };
 		F5165E5520C8FE2100474E53 /* HotPostListSuccess.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HotPostListSuccess.json; sourceTree = "<group>"; };
 		F5165E5720C8FE7200474E53 /* NewestPostListSuccess.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NewestPostListSuccess.json; sourceTree = "<group>"; };
 		F5165E5920C8FEA400474E53 /* PostListByTagSuccess.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PostListByTagSuccess.json; sourceTree = "<group>"; };
 		F5165E5B20C8FF3800474E53 /* KLTestRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLTestRequester.swift; sourceTree = "<group>"; };
+		F5502CED20CA35B00009C65F /* KLAPIRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KLAPIRequester.swift; path = Source/KLAPIRequester.swift; sourceTree = SOURCE_ROOT; };
+		F5502CEE20CA35B00009C65F /* KLError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KLError.swift; path = Source/KLError.swift; sourceTree = SOURCE_ROOT; };
+		F5502CEF20CA35B00009C65F /* KipalogAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KipalogAPI.swift; path = Source/KipalogAPI.swift; sourceTree = SOURCE_ROOT; };
+		F5502CF020CA35B00009C65F /* KLModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KLModels.swift; path = Source/KLModels.swift; sourceTree = SOURCE_ROOT; };
+		F5502CF120CA35B00009C65F /* KLResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KLResult.swift; path = Source/KLResult.swift; sourceTree = SOURCE_ROOT; };
 		F56A5E4620C90BE50011F766 /* KLTestUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLTestUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,13 +88,11 @@
 		F5165E3020C8D45A00474E53 /* KipalogAPI */ = {
 			isa = PBXGroup;
 			children = (
-				F5165E3120C8D45A00474E53 /* KipalogAPI.h */,
-				F5165E3220C8D45A00474E53 /* Info.plist */,
-				F5165E3B20C8DB1000474E53 /* KLResult.swift */,
-				F5165E3D20C8DB6800474E53 /* KLError.swift */,
-				F5165E5020C8E87B00474E53 /* KLModels.swift */,
-				F5165E3920C8D7FE00474E53 /* KLAPIRequester.swift */,
-				F5165E5220C8E8FB00474E53 /* KipalogAPI.swift */,
+				F5502CEF20CA35B00009C65F /* KipalogAPI.swift */,
+				F5502CED20CA35B00009C65F /* KLAPIRequester.swift */,
+				F5502CEE20CA35B00009C65F /* KLError.swift */,
+				F5502CF020CA35B00009C65F /* KLModels.swift */,
+				F5502CF120CA35B00009C65F /* KLResult.swift */,
 			);
 			path = KipalogAPI;
 			sourceTree = "<group>";
@@ -131,7 +126,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5165E3320C8D45A00474E53 /* KipalogAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,11 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5165E3E20C8DB6800474E53 /* KLError.swift in Sources */,
-				F5165E3A20C8D7FE00474E53 /* KLAPIRequester.swift in Sources */,
-				F5165E5320C8E8FB00474E53 /* KipalogAPI.swift in Sources */,
-				F5165E3C20C8DB1000474E53 /* KLResult.swift in Sources */,
-				F5165E5120C8E87B00474E53 /* KLModels.swift in Sources */,
+				F5502CF520CA35B00009C65F /* KLModels.swift in Sources */,
+				F5502CF320CA35B00009C65F /* KLError.swift in Sources */,
+				F5502CF420CA35B00009C65F /* KipalogAPI.swift in Sources */,
+				F5502CF620CA35B00009C65F /* KLResult.swift in Sources */,
+				F5502CF220CA35B00009C65F /* KLAPIRequester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +390,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KipalogAPI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -424,7 +417,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KipalogAPI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
