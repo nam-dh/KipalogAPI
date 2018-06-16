@@ -1,6 +1,6 @@
 //
 //  KipalogAPITests.swift
-//  KipalogAPITests
+//  KipalogAPI
 //
 //  Created by Nam Doan on 2018/06/07.
 //  Copyright © 2018年 Nam Doan. All rights reserved.

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5165E2D20C8D45A00474E53"
+               BlueprintIdentifier = "KipalogAPI::KipalogAPI"
                BuildableName = "KipalogAPI.framework"
                BlueprintName = "KipalogAPI"
                ReferencedContainer = "container:KipalogAPI.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5165E4220C8DC2F00474E53"
+               BlueprintIdentifier = "KipalogAPI::KipalogAPITests"
                BuildableName = "KipalogAPITests.xctest"
                BlueprintName = "KipalogAPITests"
                ReferencedContainer = "container:KipalogAPI.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5165E2D20C8D45A00474E53"
+            BlueprintIdentifier = "KipalogAPI::KipalogAPI"
             BuildableName = "KipalogAPI.framework"
             BlueprintName = "KipalogAPI"
             ReferencedContainer = "container:KipalogAPI.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5165E2D20C8D45A00474E53"
+            BlueprintIdentifier = "KipalogAPI::KipalogAPI"
             BuildableName = "KipalogAPI.framework"
             BlueprintName = "KipalogAPI"
             ReferencedContainer = "container:KipalogAPI.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5165E2D20C8D45A00474E53"
+            BlueprintIdentifier = "KipalogAPI::KipalogAPI"
             BuildableName = "KipalogAPI.framework"
             BlueprintName = "KipalogAPI"
             ReferencedContainer = "container:KipalogAPI.xcodeproj">
