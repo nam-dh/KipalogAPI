@@ -1,16 +1,45 @@
-# Kipalog API
+Kipalog API
+=================
 Swift wrapper for Kipalog API (http://kipalog.com)
 
 Original documentation see at: [https://github.com/Kipalog/Kipalog-API-Doc](https://github.com/Kipalog/Kipalog-API-Doc)
 
-[![Build Status](https://travis-ci.com/nam-dh/kipalog-api-swift.svg?branch=master)](https://travis-ci.com/nam-dh/kipalog-api-swift)  
-### Usage
+[![Build Status](https://travis-ci.com/nam-dh/kipalog-api-swift.svg?branch=master)](https://travis-ci.com/nam-dh/kipalog-api-swift) 
+
+Installation:
+=================
+
+##### Swift Package Manager
+Adding it to your `Package.swift`:
+
+```swift
+import PackageDescription
+
+let package = Package(
+    name: "YourProject",
+    
+    dependencies: [
+        .Package(url: "https://github.com/nam-dh/KipalogAPI.git")
+    ],
+    targets: [
+        .target(name: "YourProject",
+                dependencies: ["KipalogAPI"],
+                path: "Sources")    
+)
+```
+
+```bash
+$ swift build
+```
+
+Usage:
+=================
 #### IMPORTANT: Configure your API access token
 ```
 KipalogAPI.shared.accessToken = 'token-obtained-from-kipalog'
 ```
 
-#### Get post list (hot, newest, by tag)
+#### Get post list (hot posts, latest posts, posts by tag)
 ```
 KipalogAPI.shared.getPostList(type: .hot) { (result) in
 }
@@ -20,7 +49,7 @@ There are 3 list types:
 ```
 public enum PostListType {
   case hot
-  case newest
+  case latest
   case tag(String)
 }
 ```

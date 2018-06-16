@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"KipalogAPI::KipalogAPIPackageTests::ProductTarget" /* KipalogAPIPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_32 /* Build configuration list for PBXAggregateTarget "KipalogAPIPackageTests" */;
+			buildConfigurationList = OBJ_41 /* Build configuration list for PBXAggregateTarget "KipalogAPIPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_35 /* PBXTargetDependency */,
+				OBJ_44 /* PBXTargetDependency */,
 			);
 			name = KipalogAPIPackageTests;
 			productName = KipalogAPIPackageTests;
@@ -21,28 +21,28 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3D10F7A120D4D4C600A88B95 /* KLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10F79C20D4D4C600A88B95 /* KLResult.swift */; };
-		3D10F7A220D4D4C600A88B95 /* KLError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10F79D20D4D4C600A88B95 /* KLError.swift */; };
-		3D10F7A320D4D4C600A88B95 /* KipalogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10F79E20D4D4C600A88B95 /* KipalogAPI.swift */; };
-		3D10F7A420D4D4C600A88B95 /* KLAPIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10F79F20D4D4C600A88B95 /* KLAPIRequester.swift */; };
-		3D10F7A520D4D4C600A88B95 /* KLModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10F7A020D4D4C600A88B95 /* KLModels.swift */; };
-		3D10F7AC20D4D53800A88B95 /* KLTestRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10F7A620D4D53700A88B95 /* KLTestRequester.swift */; };
-		3D10F7AD20D4D53800A88B95 /* KLTestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10F7A720D4D53800A88B95 /* KLTestUtility.swift */; };
-		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_41 /* KipalogAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* KipalogAPITests.swift */; };
-		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
-		OBJ_44 /* KipalogAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "KipalogAPI::KipalogAPI::Product" /* KipalogAPI.framework */; };
+		OBJ_28 /* KLAPIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* KLAPIRequester.swift */; };
+		OBJ_29 /* KLError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* KLError.swift */; };
+		OBJ_30 /* KLModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* KLModels.swift */; };
+		OBJ_31 /* KLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* KLResult.swift */; };
+		OBJ_32 /* KipalogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* KipalogAPI.swift */; };
+		OBJ_39 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_50 /* KLTestRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* KLTestRequester.swift */; };
+		OBJ_51 /* KLTestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* KLTestUtility.swift */; };
+		OBJ_52 /* KipalogAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* KipalogAPITests.swift */; };
+		OBJ_53 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* XCTestManifests.swift */; };
+		OBJ_55 /* KipalogAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "KipalogAPI::KipalogAPI::Product" /* KipalogAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D10F79920D4D48B00A88B95 /* PBXContainerItemProxy */ = {
+		3D10F7D320D4DFAB00A88B95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "KipalogAPI::KipalogAPI";
 			remoteInfo = KipalogAPI;
 		};
-		3D10F79A20D4D48B00A88B95 /* PBXContainerItemProxy */ = {
+		3D10F7D420D4DFAB00A88B95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -52,87 +52,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D10F79C20D4D4C600A88B95 /* KLResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLResult.swift; sourceTree = "<group>"; };
-		3D10F79D20D4D4C600A88B95 /* KLError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLError.swift; sourceTree = "<group>"; };
-		3D10F79E20D4D4C600A88B95 /* KipalogAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KipalogAPI.swift; sourceTree = "<group>"; };
-		3D10F79F20D4D4C600A88B95 /* KLAPIRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLAPIRequester.swift; sourceTree = "<group>"; };
-		3D10F7A020D4D4C600A88B95 /* KLModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLModels.swift; sourceTree = "<group>"; };
-		3D10F7A620D4D53700A88B95 /* KLTestRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLTestRequester.swift; sourceTree = "<group>"; };
-		3D10F7A720D4D53800A88B95 /* KLTestUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLTestUtility.swift; sourceTree = "<group>"; };
-		3D10F7B020D4D60800A88B95 /* PostListByTagSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PostListByTagSuccess.json; sourceTree = "<group>"; };
-		3D10F7B120D4D60800A88B95 /* NewestPostListSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NewestPostListSuccess.json; sourceTree = "<group>"; };
-		3D10F7B220D4D60800A88B95 /* HotPostListSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HotPostListSuccess.json; sourceTree = "<group>"; };
 		"KipalogAPI::KipalogAPI::Product" /* KipalogAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KipalogAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"KipalogAPI::KipalogAPITests::Product" /* KipalogAPITests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = KipalogAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_12 /* KipalogAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipalogAPITests.swift; sourceTree = "<group>"; };
-		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_10 /* KLError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLError.swift; sourceTree = "<group>"; };
+		OBJ_11 /* KLModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLModels.swift; sourceTree = "<group>"; };
+		OBJ_12 /* KLResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLResult.swift; sourceTree = "<group>"; };
+		OBJ_13 /* KipalogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipalogAPI.swift; sourceTree = "<group>"; };
+		OBJ_16 /* KLTestRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLTestRequester.swift; sourceTree = "<group>"; };
+		OBJ_17 /* KLTestUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLTestUtility.swift; sourceTree = "<group>"; };
+		OBJ_18 /* KipalogAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipalogAPITests.swift; sourceTree = "<group>"; };
+		OBJ_19 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* KLAPIRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLAPIRequester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_24 /* Frameworks */ = {
+		OBJ_33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_43 /* Frameworks */ = {
+		OBJ_54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_44 /* KipalogAPI.framework in Frameworks */,
+				OBJ_55 /* KipalogAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D10F79B20D4D4C600A88B95 /* KipalogAPI */ = {
+		OBJ_14 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3D10F79E20D4D4C600A88B95 /* KipalogAPI.swift */,
-				3D10F79C20D4D4C600A88B95 /* KLResult.swift */,
-				3D10F79D20D4D4C600A88B95 /* KLError.swift */,
-				3D10F79F20D4D4C600A88B95 /* KLAPIRequester.swift */,
-				3D10F7A020D4D4C600A88B95 /* KLModels.swift */,
-			);
-			name = KipalogAPI;
-			path = Sources/KipalogAPI;
-			sourceTree = "<group>";
-		};
-		3D10F7AF20D4D60800A88B95 /* TestData */ = {
-			isa = PBXGroup;
-			children = (
-				3D10F7B020D4D60800A88B95 /* PostListByTagSuccess.json */,
-				3D10F7B120D4D60800A88B95 /* NewestPostListSuccess.json */,
-				3D10F7B220D4D60800A88B95 /* HotPostListSuccess.json */,
-			);
-			path = TestData;
-			sourceTree = "<group>";
-		};
-		OBJ_10 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_11 /* KipalogAPITests */,
+				OBJ_15 /* KipalogAPITests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_11 /* KipalogAPITests */ = {
+		OBJ_15 /* KipalogAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				3D10F7AF20D4D60800A88B95 /* TestData */,
-				3D10F7A620D4D53700A88B95 /* KLTestRequester.swift */,
-				3D10F7A720D4D53800A88B95 /* KLTestUtility.swift */,
-				OBJ_12 /* KipalogAPITests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
+				OBJ_16 /* KLTestRequester.swift */,
+				OBJ_17 /* KLTestUtility.swift */,
+				OBJ_18 /* KipalogAPITests.swift */,
+				OBJ_19 /* XCTestManifests.swift */,
 			);
 			name = KipalogAPITests;
 			path = Tests/KipalogAPITests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_15 /* Products */ = {
+		OBJ_20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"KipalogAPI::KipalogAPITests::Product" /* KipalogAPITests.xctest */,
@@ -146,8 +119,8 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_10 /* Tests */,
-				OBJ_15 /* Products */,
+				OBJ_14 /* Tests */,
+				OBJ_20 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -155,9 +128,22 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3D10F79B20D4D4C600A88B95 /* KipalogAPI */,
+				OBJ_8 /* KipalogAPI */,
 			);
 			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* KipalogAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* KipalogAPI.swift */,
+				OBJ_9 /* KLAPIRequester.swift */,
+				OBJ_10 /* KLError.swift */,
+				OBJ_11 /* KLModels.swift */,
+				OBJ_12 /* KLResult.swift */,
+			);
+			name = KipalogAPI;
+			path = Sources/KipalogAPI;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -165,10 +151,10 @@
 /* Begin PBXNativeTarget section */
 		"KipalogAPI::KipalogAPI" /* KipalogAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "KipalogAPI" */;
+			buildConfigurationList = OBJ_24 /* Build configuration list for PBXNativeTarget "KipalogAPI" */;
 			buildPhases = (
-				OBJ_22 /* Sources */,
-				OBJ_24 /* Frameworks */,
+				OBJ_27 /* Sources */,
+				OBJ_33 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,15 +167,15 @@
 		};
 		"KipalogAPI::KipalogAPITests" /* KipalogAPITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "KipalogAPITests" */;
+			buildConfigurationList = OBJ_46 /* Build configuration list for PBXNativeTarget "KipalogAPITests" */;
 			buildPhases = (
-				OBJ_40 /* Sources */,
-				OBJ_43 /* Frameworks */,
+				OBJ_49 /* Sources */,
+				OBJ_54 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_45 /* PBXTargetDependency */,
+				OBJ_56 /* PBXTargetDependency */,
 			);
 			name = KipalogAPITests;
 			productName = KipalogAPITests;
@@ -198,9 +184,9 @@
 		};
 		"KipalogAPI::SwiftPMPackageDescription" /* KipalogAPIPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_26 /* Build configuration list for PBXNativeTarget "KipalogAPIPackageDescription" */;
+			buildConfigurationList = OBJ_35 /* Build configuration list for PBXNativeTarget "KipalogAPIPackageDescription" */;
 			buildPhases = (
-				OBJ_29 /* Sources */,
+				OBJ_38 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -226,7 +212,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_15 /* Products */;
+			productRefGroup = OBJ_20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -239,54 +225,54 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_22 /* Sources */ = {
+		OBJ_27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				3D10F7A320D4D4C600A88B95 /* KipalogAPI.swift in Sources */,
-				3D10F7A220D4D4C600A88B95 /* KLError.swift in Sources */,
-				3D10F7AD20D4D53800A88B95 /* KLTestUtility.swift in Sources */,
-				3D10F7A420D4D4C600A88B95 /* KLAPIRequester.swift in Sources */,
-				3D10F7A520D4D4C600A88B95 /* KLModels.swift in Sources */,
-				3D10F7A120D4D4C600A88B95 /* KLResult.swift in Sources */,
-				3D10F7AC20D4D53800A88B95 /* KLTestRequester.swift in Sources */,
+				OBJ_28 /* KLAPIRequester.swift in Sources */,
+				OBJ_29 /* KLError.swift in Sources */,
+				OBJ_30 /* KLModels.swift in Sources */,
+				OBJ_31 /* KLResult.swift in Sources */,
+				OBJ_32 /* KipalogAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_29 /* Sources */ = {
+		OBJ_38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_30 /* Package.swift in Sources */,
+				OBJ_39 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_40 /* Sources */ = {
+		OBJ_49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_41 /* KipalogAPITests.swift in Sources */,
-				OBJ_42 /* XCTestManifests.swift in Sources */,
+				OBJ_50 /* KLTestRequester.swift in Sources */,
+				OBJ_51 /* KLTestUtility.swift in Sources */,
+				OBJ_52 /* KipalogAPITests.swift in Sources */,
+				OBJ_53 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_35 /* PBXTargetDependency */ = {
+		OBJ_44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "KipalogAPI::KipalogAPITests" /* KipalogAPITests */;
-			targetProxy = 3D10F79A20D4D48B00A88B95 /* PBXContainerItemProxy */;
+			targetProxy = 3D10F7D420D4DFAB00A88B95 /* PBXContainerItemProxy */;
 		};
-		OBJ_45 /* PBXTargetDependency */ = {
+		OBJ_56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "KipalogAPI::KipalogAPI" /* KipalogAPI */;
-			targetProxy = 3D10F79920D4D48B00A88B95 /* PBXContainerItemProxy */;
+			targetProxy = 3D10F7D320D4DFAB00A88B95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_20 /* Debug */ = {
+		OBJ_25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -309,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_21 /* Release */ = {
+		OBJ_26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -329,24 +315,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = KipalogAPI;
-			};
-			name = Release;
-		};
-		OBJ_27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		OBJ_28 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -372,53 +340,21 @@
 			};
 			name = Debug;
 		};
-		OBJ_33 /* Debug */ = {
+		OBJ_36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		OBJ_34 /* Release */ = {
+		OBJ_37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = KipalogAPI.xcodeproj/KipalogAPITests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
-				TARGET_NAME = KipalogAPITests;
-			};
-			name = Debug;
-		};
-		OBJ_39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = KipalogAPI.xcodeproj/KipalogAPITests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = KipalogAPITests;
 			};
 			name = Release;
 		};
@@ -442,18 +378,59 @@
 			};
 			name = Release;
 		};
+		OBJ_42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KipalogAPI.xcodeproj/KipalogAPITests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = KipalogAPITests;
+			};
+			name = Debug;
+		};
+		OBJ_48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KipalogAPI.xcodeproj/KipalogAPITests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = KipalogAPITests;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_19 /* Build configuration list for PBXNativeTarget "KipalogAPI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_20 /* Debug */,
-				OBJ_21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		OBJ_2 /* Build configuration list for PBXProject "KipalogAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -463,29 +440,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_26 /* Build configuration list for PBXNativeTarget "KipalogAPIPackageDescription" */ = {
+		OBJ_24 /* Build configuration list for PBXNativeTarget "KipalogAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_27 /* Debug */,
-				OBJ_28 /* Release */,
+				OBJ_25 /* Debug */,
+				OBJ_26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_32 /* Build configuration list for PBXAggregateTarget "KipalogAPIPackageTests" */ = {
+		OBJ_35 /* Build configuration list for PBXNativeTarget "KipalogAPIPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_33 /* Debug */,
-				OBJ_34 /* Release */,
+				OBJ_36 /* Debug */,
+				OBJ_37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_37 /* Build configuration list for PBXNativeTarget "KipalogAPITests" */ = {
+		OBJ_41 /* Build configuration list for PBXAggregateTarget "KipalogAPIPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_38 /* Debug */,
-				OBJ_39 /* Release */,
+				OBJ_42 /* Debug */,
+				OBJ_43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_46 /* Build configuration list for PBXNativeTarget "KipalogAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_47 /* Debug */,
+				OBJ_48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

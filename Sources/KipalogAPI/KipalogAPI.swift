@@ -30,15 +30,15 @@ public class KipalogAPI {
 
     public enum PostListType {
         case hot
-        case newest
+        case latest
         case tag(String)
 
         var apiTag: KLAPI.Tag {
             switch self {
             case .hot:
                 return .hotPostList
-            case .newest:
-                return .newestPostList
+            case .latest:
+                return .latestPostList
             case .tag:
                 return .postByTag
             }
@@ -46,7 +46,7 @@ public class KipalogAPI {
 
         var requestData: JSONDictionary {
             switch self {
-            case .hot, .newest:
+            case .hot, .latest:
                 return [:]
             case .tag(let name):
                 return ["tag_name": name]

@@ -20,7 +20,7 @@ struct KLAPI {
         case createPost = "v1/post"
         case previewPost = "v1/post/preview"
         case hotPostList = "v1/post/hot"
-        case newestPostList = "v1/post/newest"
+        case latestPostList = "v1/post/newest"
         case postByTag = "v1/post/bytag"
 
         var url: URL {
@@ -30,7 +30,7 @@ struct KLAPI {
             switch self {
             case .createPost, .previewPost, .postByTag:
                 return .post
-            case .hotPostList, .newestPostList:
+            case .hotPostList, .latestPostList:
                 return .get
             }
         }
