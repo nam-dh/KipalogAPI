@@ -17,9 +17,9 @@ import PackageDescription
 
 let package = Package(
     name: "YourProject",
-    
     dependencies: [
-        .Package(url: "https://github.com/nam-dh/KipalogAPI.git")
+        .package(url: "https://github.com/nam-dh/KipalogAPI.git",
+                 from: "1.0.1")
     ],
     targets: [
         .target(name: "YourProject",
@@ -56,21 +56,21 @@ public enum PostListType {
 
 #### Publish a new post
 ```
-let newPost = KLLocalPost(title: "Hello World", action: .publish, content: "markdown text", tags: ["TIL","Markdown"])
+let newPost = KLLocalPost(title: "Hello World", action: .publish, content: "markdown text", tags: ["TIL","Markdown"], type: .markdown)
 KipalogAPI.shared.post(newPost) { (error) in
 }
 ```
 
 #### Draft a new post
 ```
-let newPost = KLLocalPost(title: "Hello World", action: .draft, content: "markdown text", tags: ["TIL","Markdown"])
+let newPost = KLLocalPost(title: "Hello World", action: .draft, content: "markdown text", tags: ["TIL","Markdown"], type: .markdown)
 KipalogAPI.shared.post(newPost) { (error) in
 }
 ```
 
 #### Preview a post
 ```
-let newPost = KLLocalPost(title: "Hello World", content: "plain", tags: ["TIL","Markdown"])
+let newPost = KLLocalPost(title: "Hello World", content: "plain", tags: ["TIL","Markdown"], type: .markdown)
 KipalogAPI.shared.preview(newPost) { (post) in
 }
 ```

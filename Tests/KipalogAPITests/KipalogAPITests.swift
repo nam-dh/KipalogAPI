@@ -7,7 +7,6 @@
 //
 
 import XCTest
-
 @testable import KipalogAPI
 
 final class KipalogAPITests: XCTestCase {
@@ -46,7 +45,7 @@ final class KipalogAPITests: XCTestCase {
     func testGetNewestPostListSuccess() {
         let expectation = self.expectation(description: "testGetNewestPostListSuccess")
         let env = KipalogAPI.Environment(apiRequester: KLTestRequester(responseWithJSONFile: "NewestPostListSuccess.json"))
-        KipalogAPI(env).getPostList(type: .newest) { (result) in
+        KipalogAPI(env).getPostList(type: .latest) { (result) in
             XCTAssert(result.value?.count == 30)
             expectation.fulfill()
         }
@@ -56,7 +55,7 @@ final class KipalogAPITests: XCTestCase {
     func testGetNewestPostListFailed() {
         let expectation = self.expectation(description: "testGetNewestPostListFailed")
         let env = KipalogAPI.Environment(apiRequester: KLTestRequester(responseWithError: .connectionTimeout))
-        KipalogAPI(env).getPostList(type: .newest) { (result) in
+        KipalogAPI(env).getPostList(type: .latest) { (result) in
             XCTAssertNil(result.value)
             XCTAssert(result.error! == KLError.connectionTimeout)
             expectation.fulfill()

@@ -30,7 +30,6 @@
 		OBJ_50 /* KLTestRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* KLTestRequester.swift */; };
 		OBJ_51 /* KLTestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* KLTestUtility.swift */; };
 		OBJ_52 /* KipalogAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* KipalogAPITests.swift */; };
-		OBJ_53 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* XCTestManifests.swift */; };
 		OBJ_55 /* KipalogAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "KipalogAPI::KipalogAPI::Product" /* KipalogAPI.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F585175C20D77D0F005CAA93 /* PostListByTagSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PostListByTagSuccess.json; sourceTree = "<group>"; };
+		F585175D20D77D0F005CAA93 /* NewestPostListSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NewestPostListSuccess.json; sourceTree = "<group>"; };
+		F585175E20D77D0F005CAA93 /* HotPostListSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HotPostListSuccess.json; sourceTree = "<group>"; };
 		"KipalogAPI::KipalogAPI::Product" /* KipalogAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KipalogAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"KipalogAPI::KipalogAPITests::Product" /* KipalogAPITests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = KipalogAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* KLError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLError.swift; sourceTree = "<group>"; };
@@ -85,9 +87,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F585175B20D77D0F005CAA93 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				F585175C20D77D0F005CAA93 /* PostListByTagSuccess.json */,
+				F585175D20D77D0F005CAA93 /* NewestPostListSuccess.json */,
+				F585175E20D77D0F005CAA93 /* HotPostListSuccess.json */,
+			);
+			name = TestData;
+			path = Tests/KipalogAPITests/TestData;
+			sourceTree = "<group>";
+		};
 		OBJ_14 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F585175B20D77D0F005CAA93 /* TestData */,
 				OBJ_15 /* KipalogAPITests */,
 			);
 			name = Tests;
@@ -114,7 +128,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -122,7 +136,6 @@
 				OBJ_14 /* Tests */,
 				OBJ_20 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -211,7 +224,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,7 +265,6 @@
 				OBJ_50 /* KLTestRequester.swift in Sources */,
 				OBJ_51 /* KLTestUtility.swift in Sources */,
 				OBJ_52 /* KipalogAPITests.swift in Sources */,
-				OBJ_53 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

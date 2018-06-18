@@ -6,6 +6,7 @@
 //  Copyright © 2018年 Nam Doan. All rights reserved.
 //
 
+@testable import KipalogAPI
 import Foundation
 
 final class KLTestUtility {

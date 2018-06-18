@@ -19,7 +19,7 @@ public class KipalogAPI {
         self.environment = env ?? KipalogAPI.Environment(apiRequester: KLAPIRequester.shared)
     }
 
-    var accessToken: String {
+    public var accessToken: String {
         get {
             return KLAPIRequester.shared.accessToken
         }
@@ -90,6 +90,9 @@ public class KipalogAPI {
     }
 
     public func preview(_ post: KLLocalPost, completion: @escaping (KLResult<KLLocalPost, KLError>) -> Void) {
+        guard post.type == .markdown else {
+            return completion(.failure(KLError.inputError))
+        }
         let data: JSONDictionary = [
             "content": post.content
         ]
@@ -97,7 +100,7 @@ public class KipalogAPI {
             let response = result
                 .flatMap({ (json) -> KLResult<KLLocalPost, KLError> in
                     if let content = json["content"] as? String {
-                        let newPost = KLLocalPost(title: post.title, content: content, tags: post.tags)
+                        let newPost = KLLocalPost(title: post.title, content: content, tags: post.tags, type: .html)
                         return .success(newPost)
                     } else {
                         return .failure(.invalidJSON)
